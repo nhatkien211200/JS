@@ -487,3 +487,41 @@ Object prototyp-Basic
 
 // console.log(user.className)
 // console.log(user2.getClassName())
+
+
+/*
+Đối tượng Date 
+*/
+
+// var date = new Date();
+// var year = date.getFullYear();
+// var month = date.getMonth();
+// var day = date.getDay();
+
+// console.log(`${day}/${month}/${year}`)
+
+
+/*
+Math object
+- Math.PI
+  Math. round () // Làm trong số
+  Math. abs ()
+  Math.ceil()
+  Math.floor()
+  Math.random()
+  Math.min()
+  Math.max()
+*/
+// var random = Math.floor(Math.random() * 100);
+// if(random < 5){
+//    console.log('Success')
+// }
+// // console.log(Math.round(1.3))
+
+/*
+ Câu lệnh rẽ nhánh
+*/
+// var date = 2;
+// if(date === 2){
+//    console.log('Hôm nay là thứ 2')
+// }
