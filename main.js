@@ -299,7 +299,7 @@ CHUỖI TRONG JAVASCRIPT
 // console.log(`Toi la: ${fN} ${lN} `)
 
 // LÀM VIỆC VỚI CHUỖI
-var myString = '         Hoc JS tai F8!        ';
+// var myString = '         Hoc JS tai F8!        ';
 // Keyword: Javascript string methods
 // 1. Length
 // console.log(myString.length)
@@ -423,7 +423,11 @@ B. Concat
 
 // console.log(languages.slice(0,-1))//Cắt phần tử trong mang
 
+
+
 //Object trong JS
+
+
 // var myInfo = {
 //    name : 'Kien-chan',
 //    age :18,
@@ -432,4 +436,54 @@ B. Concat
 // myInfo['My-email'] = 'kiendz@gmail.com'
 // console.log(myInfo.age) 
 
-alert('Hello')
+// alert('Hello')
+
+
+
+
+/*
+// Object constructor
+*/
+
+// function User(firstName, lastName, avatar){
+//    this.firstName = firstName;
+//    this.lastName = lastName;
+//    this.avatar = avatar;
+
+//    this.getName = function(){
+//       return `${this.firstName} ${this.lastName}`
+//    }
+// } 
+// var author = new User('Kien', 'Chan', 'Avatar')
+// var user = new User('Quy', 'Dan', 'Avatar')
+
+// author.title = 'Chia se cho thay di'
+// user.comment = 'co khoa asp.net k ad '
+
+// console.log(author)
+// console.log(user)
+
+
+/*
+Object prototyp-Basic
+1. Prototype là gì?
+2. Sử dụng khi nào?
+*/
+// function User(firstName, lastName, avatar) {
+//    this.firstName = firstName;
+//    this.lastName = lastName;
+//    this.avatar = avatar;
+//    this.getName = function() {
+//       return `${this.firstName} ${this.lastName}` ;
+//    }
+// }
+
+// User.prototype.className = 'F8'
+// User.prototype.getClassName = function(){
+//    return this.className;
+// }
+// var user = new User('Sơn', 'Đặng', 'Avatar 1');
+// var user2 = new User('Tân', 'Đặng', 'Avatar 2');
+
+// console.log(user.className)
+// console.log(user2.getClassName())
